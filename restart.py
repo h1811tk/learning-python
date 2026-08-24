@@ -1,0 +1,6 @@
+name = input("What is your name? ").strip()
+age = input("What is your age?")
+print (f"Hello {name} you are {age} years old")
+food = input("What is your favourite food? ").strip()
+birth_year = int input("What year were you born? ")
+print (f"In 2050 you will be {2050 - birth_year} years old and hopefully eating lots of {food}!")      
